@@ -1,0 +1,36 @@
+@import 'src/assets/styles/rootColor.scss';
+
+.banner{
+  background-color: $gray-bg-color;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  overflow: hidden;
+
+  .banner_content{
+    left: 10%;
+    top: 16%;
+    div{
+      h1{
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .text1{
+        color: $gray-text-color;
+      }
+    }
+
+    h3{
+      color: $gray-text-color;
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

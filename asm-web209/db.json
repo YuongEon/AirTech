@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "AirPod pro",
+      "rating": 5,
+      "price": 5000000,
+      "imgArray": [
+        "src/assets/images/product/airpod-pro.png"
+      ],
+      "quantity": 200,
+      "sale": 20,
+      "categoryId": 1,
+      "brandId": 1,
+      "typeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Samsung earbuds 2",
+      "rating": 5,
+      "price": 2990000,
+      "imgArray": [
+        "src/assets/images/product/samsung-eb-2.png"
+      ],
+      "quantity": 100,
+      "sale": 30,
+      "categoryId": 1,
+      "brandId": 2,
+      "typeId": 1
+    },
+    {
+      "id": 3,
+      "name": "AirPod Pro Gen 2 Case",
+      "rating": 5,
+      "price": 500000,
+      "imgArray": [
+        "src/assets/images/product/airpod-pro-gen2-case.png"
+      ],
+      "quantity": 100,
+      "sale": 30,
+      "categoryId": 2,
+      "brandId": 1,
+      "typeId": 2
+    },
+    {
+      "id": 4,
+      "name": "AirPod Pro Gen 2 Case",
+      "rating": 5,
+      "price": 1000000,
+      "imgArray": [
+        "src/assets/images/product/apple-magsafe.png"
+      ],
+      "quantity": 100,
+      "sale": 30,
+      "categoryId": 3,
+      "brandId": 1,
+      "typeId": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Wireless"
+    },
+    {
+      "id": 2,
+      "name": "Case"
+    },
+    {
+      "id": 3,
+      "name": "Charge"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Samsung"
+    }
+  ],
+  "type": [
+    {
+      "id": 1,
+      "name" : "Earphone"
+    },
+    {
+      "id": 2,
+      "name" : "Accessory"
+    }
+  ]
+}

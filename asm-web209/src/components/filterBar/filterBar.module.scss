@@ -1,0 +1,27 @@
+@import 'src/assets/styles/rootColor.scss';
+
+.filter_bar{
+  width: 270px;
+  .stroke{
+    width: 40px;
+    height: 3px;
+    background-color: #000;
+  }
+
+  .filter_item{
+    .babel{
+      border-bottom: 1px solid $border-gray-color;
+    }
+    .subItems{
+      ul{
+        .activeSubItem{
+          color: #000;
+        }
+        .notActiveSubItem{
+          color: $gray-text-color;
+        }
+      }
+    }
+  }
+
+}

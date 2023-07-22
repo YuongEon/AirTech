@@ -1,0 +1,11 @@
+.normal_list{
+
+  .list_wrap{
+    margin-left: -72px;
+    
+    .card_item{
+      width: calc((100% / 3) - 72px);
+      margin-left: 72px;
+    }
+  }
+}

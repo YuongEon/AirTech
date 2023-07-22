@@ -1,0 +1,11 @@
+@import 'src/assets/styles/rootColor.scss';
+
+.top_list{
+
+  .view_more{
+    button{
+      color: $gray-text-color;
+      cursor: pointer;
+    }
+  }
+}

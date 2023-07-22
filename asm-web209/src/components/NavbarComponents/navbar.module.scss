@@ -1,0 +1,9 @@
+@import 'src/assets/styles/rootColor.scss';
+
+.notActive{
+  color: $gray-text-color;
+}
+
+.active{
+  color: $black-color;
+}

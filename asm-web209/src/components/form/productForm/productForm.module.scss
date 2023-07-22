@@ -1,0 +1,23 @@
+@import "/public/styles/rootColor.scss";
+
+.error_text{
+  color: rgb(252, 32, 32)
+}
+
+.form{
+  max-width: 600px;
+  
+
+  input{
+    width: 100%;
+    background-color: $gray-bg-color;
+    outline: unset;
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+}

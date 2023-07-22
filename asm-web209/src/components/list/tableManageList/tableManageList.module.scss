@@ -1,0 +1,85 @@
+@import "/public/styles/rootColor.scss";
+
+.content{
+  .table_bar{
+    padding: 10px 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+
+    &_items{
+      li:nth-child(1){
+        width: 100px;
+      }
+      li:nth-child(2){
+        width: 300px;
+      }
+      li{
+        width: 200px;
+        display: flex;
+        align-items: center;
+      }
+    }
+    &_default_item{
+      width: 200px;
+
+      display: flex;
+        align-items: center;
+    }
+  }
+
+  .table_values{
+    .table_value{
+      padding: 6px 10px;
+      border-radius: 2px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      &_items{
+        li:nth-child(1){
+          width: 100px;
+        }
+        li:nth-child(2){
+          width: 300px;
+        }
+        li{
+          width: 200px;
+          display: flex;
+          align-items: center;
+
+          img{
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+          }
+        }
+      }
+      &_default_item{
+        width: 200px;
+  
+        display: flex;
+          align-items: center;
+      }
+    }
+  }
+  .create_btn{
+    text-align: right;
+    button{
+      width: 100px;
+      height: 30px;
+      background-color: $black-btn-color;
+      color: $white-color;
+      border-radius: 2px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      text-align: center;
+      line-height: 28px;
+    }
+  }
+}
+
